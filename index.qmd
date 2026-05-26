@@ -1,0 +1,250 @@
+---
+title: "Home"
+description: "Learning for Embodied Minds and Agents at the National University of Singapore."
+---
+
+::: {.hero}
+::: {.hero-content}
+<div class="hero-brand">
+  <h1 class="hero-title" aria-label="LEMA">
+    <span class="hero-acronym" aria-hidden="true">
+      <span class="lema-letter lema-letter-l">L</span><span class="lema-letter lema-letter-e">E</span><span class="lema-letter lema-letter-m">M</span><span class="lema-letter lema-letter-a">A</span>
+    </span>
+    <span class="hero-lab">Lab</span>
+  </h1>
+  <div class="hero-full-name" aria-label="Learning for Embodied Minds and Agents"><span><span class="full-initial full-initial-l">L</span>earning</span> <span>for</span> <span><span class="full-initial full-initial-e">E</span>mbodied</span> <span><span class="full-initial full-initial-m">M</span>inds</span> <span>and</span> <span><span class="full-initial full-initial-a">A</span>gents</span></div>
+</div>
+<div class="hero-intro">
+  <p>Welcome to the LEMA Lab in the Department of Computer Science at the National University of Singapore. We are a collaborative group of researchers working to build intelligent agents that can perceive, reason, and act in the physical world. Our research bridges machine learning, computer vision, and robotics, with a focus on learning agents that can generalize from limited data, adapt during deployment, remember what matters, and improve through experience.</p>
+</div>
+:::
+:::
+
+::: {#opportunities .section .join-section}
+::: {.join-content}
+::: {.join-copy}
+
+## Open Positions
+We welcome PhD students, postdoctoral researchers, and visiting students interested in building the next generation of embodied agents, with research directions including robot learning, world models, multimodal agents, data curation, and recursive self-improvement.
+
+:::
+::: {.join-action}
+<a class="join-button" href="contact.html#openings">
+  <span class="join-button-main">Join Us</span>
+  <span class="join-button-sub">Hiring from 2027</span>
+  <span class="join-button-note">All levels welcome</span>
+</a>
+:::
+:::
+:::
+
+::: {#research .section}
+::: {.section-heading}
+## Research Directions
+
+We study how embodied agents can learn from interaction, reason about the physical world, and improve autonomously.
+:::
+
+::: {.research-questions}
+::: {.research-question}
+<div class="research-question-head">
+  <i data-lucide="route" class="research-icon"></i>
+  <strong>Adaptive Robot Policies</strong>
+</div>
+How can robot policies adapt dynamically at inference time to handle new tasks, environments, and embodiment variations?
+:::
+
+::: {.research-question}
+<div class="research-question-head">
+  <i data-lucide="orbit" class="research-icon"></i>
+  <strong>Predictive World Models</strong>
+</div>
+How can structured world models help agents anticipate spatial, temporal, and physical interactions before acting?
+:::
+
+::: {.research-question}
+<div class="research-question-head">
+  <i data-lucide="repeat-2" class="research-icon"></i>
+  <strong>Proactive Self-Improvement</strong>
+</div>
+How can agents verify and learn from their own predictions to improve continually with minimal human supervision?
+:::
+:::
+:::
+
+::: {#publications .section}
+::: {.section-heading}
+
+## Selected Publications
+:::
+
+::: {.section-intro}
+Below is a representative selection of recent publications. For the full publication list, please refer to the [Google Scholar](https://scholar.google.com/citations?hl=en&user=Xi-B5WIAAAAJ) profile.
+:::
+
+::: {.publication-list}
+::: {.publication-card}
+### World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry
+
+Yuejiang Liu, Fan Feng, Lingjing Kong, Weifeng Lu, Jinzhou Tang, Kun Zhang, Kevin Murphy, Chelsea Finn, Yilun Du  
+
+<div class="publication-meta">
+<div class="publication-venue"><em>Preprint, 2026. <span class="pub-note">Best Paper</span>, ICLR World Model Workshop</em></div>
+<div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2604.01985">Paper</a><a class="pub-link" href="https://world-action-verifier.github.io/">Project</a><a class="pub-link" href="https://github.com/world-action-verifier/wav_robot">Code</a></div>
+</div>
+:::
+
+::: {.publication-card}
+### RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies
+
+Yinpei Dai, Hongze Fu, Jayjun Lee, Yuejiang Liu, Haoran Zhang, Jianing Yang, Chelsea Finn, Nima Fazeli, Joyce Chai  
+
+<div class="publication-meta">
+<div class="publication-venue"><em>International Conference on Machine Learning (ICML), 2026. <span class="pub-note">Oral (0.7%)</span></em></div>
+<div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2603.04639">Paper</a><a class="pub-link" href="https://robomme.github.io/">Project</a><a class="pub-link" href="https://github.com/RoboMME/robomme_benchmark">Code</a></div>
+</div>
+:::
+
+::: {.publication-card}
+### Learning Long-Context Diffusion Policies via Past-Token Prediction
+
+Marcel Torne, Andy Tang, Yuejiang Liu, Chelsea Finn  
+
+<div class="publication-meta">
+<div class="publication-venue"><em>Conference on Robot Learning (CoRL), 2025. <span class="pub-note">Best Paper</span>, RSS Robot Representation Workshop</em></div>
+<div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2505.09561">Paper</a><a class="pub-link" href="https://long-context-dp.github.io/">Project</a><a class="pub-link" href="https://github.com/long-context-dp/ldp">Code</a></div>
+</div>
+:::
+
+::: {.publication-card}
+### Demo-SCORE: Curating Demonstrations using Online Experience
+
+Annie Chen, Alec Lessing, Yuejiang Liu, Chelsea Finn  
+
+<div class="publication-meta">
+<div class="publication-venue"><em>Robotics: Science and Systems (RSS), 2025</em></div>
+<div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2503.03707">Paper</a><a class="pub-link" href="https://anniesch.github.io/demo-score/">Project</a><a class="pub-link" href="https://github.com/alessing/demo-score">Code</a></div>
+</div>
+:::
+
+::: {.publication-card}
+### Bidirectional Decoding: Improving Action Chunking via Guided Test-Time Sampling
+
+Yuejiang Liu, Jubayer Ibn Hamid, Annie Xie, Yoonho Lee, Max Du, Chelsea Finn  
+
+<div class="publication-meta">
+<div class="publication-venue"><em>International Conference on Learning Representations (ICLR), 2025</em></div>
+<div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2408.17355">Paper</a><a class="pub-link" href="https://bid-robot.github.io/">Project</a><a class="pub-link" href="https://github.com/YuejiangLIU/bid_diffusion">Code</a></div>
+</div>
+:::
+:::
+:::
+
+::: {#members .section .members-section}
+::: {.section-heading}
+
+## Team Members
+:::
+
+::: {.members-grid}
+::: {.member-card .director-card}
+::: {.member-role}
+Principal Investigator
+:::
+
+### Yuejiang Liu
+
+::: {.pi-details}
+::: {.pi-line}
+Assistant Professor, NUS
+:::
+::: {.pi-line}
+[Presidential Young Professorship](https://www.nus.edu.sg/careers/nus-programmes)
+:::
+::: {.pi-line}
+[Department of Computer Science](https://www.comp.nus.edu.sg/cs/research/)
+:::
+:::
+
+[Website](https://sites.google.com/view/yuejiangliu/home){.pub-link} [Scholar](https://scholar.google.com/citations?hl=en&user=Xi-B5WIAAAAJ){.pub-link} [Twitter](https://x.com/liu_yuejiang){.pub-link}
+:::
+
+::: {.member-card .current-card}
+::: {.member-role}
+Current
+:::
+
+::: {.current-list}
+::: {.current-item}
+[Recruiting from 2027](#opportunities), NUS
+:::
+::: {.current-item}
+[Jacky Kwok](https://www.linkedin.com/in/jackykwok02), PhD, Stanford
+:::
+::: {.current-item}
+[Xilun Zhang](https://xilunzhangrobo.github.io/), PhD, Stanford
+:::
+::: {.current-item}
+[Yinpei Dai](https://yinpeidai.github.io/), PhD, U Michigan
+:::
+::: {.current-item}
+[Alec Lessing](https://www.linkedin.com/in/alec-lessing-3a1a77301), MSc, Stanford
+:::
+::: {.current-item}
+[Yi Du](https://www.linkedin.com/in/duyiblue), MSc, Stanford
+:::
+::: {.current-item}
+[Eric Liang](https://www.linkedin.com/in/erichliang), MSc, Stanford
+:::
+:::
+:::
+
+::: {.member-card .alumni-card}
+::: {.member-role}
+Alumni
+:::
+
+::: {.alumni-list}
+::: {.alumni-item}
+[Xilun Zhang](https://xilunzhangrobo.github.io/), MSc, CMU → PhD, Stanford
+:::
+::: {.alumni-item}
+[Jubayer Hamid](https://jubayer-ibn-hamid.github.io/), BSc, Stanford → PhD, Stanford
+:::
+::: {.alumni-item}
+[Frano Rajič](https://m43.github.io/), MSc, EPFL → PhD, ETH
+:::
+::: {.alumni-item}
+[Qi Yan](https://qiyan98.github.io/), MSc, EPFL → PhD, UBC
+:::
+::: {.alumni-item}
+[Riccardo Cadei](https://www.riccardocadei.com/), MSc, EPFL → PhD, ISTA
+:::
+::: {.alumni-item}
+[Sherwin Bahmani](https://sherwinbahmani.github.io/), MSc, TUD → PhD, U Toronto
+:::
+::: {.alumni-item}
+[Rhea Malhotra](https://rhea-mal.github.io/rheamalhotra/), BSc, Stanford (Best Thesis)
+:::
+::: {.alumni-item}
+[Hao Zhao](https://marcelluszhao.github.io/), MSc, EPFL → PhD, EPFL
+:::
+::: {.alumni-item}
+[Danya Li](https://orbit.dtu.dk/en/persons/danya-li/), MSc, EPFL → PhD, DTU
+:::
+:::
+:::
+
+:::
+:::
+
+::: {.site-footer}
+::: {.footer-copyright}
+© 2026 LEMA Lab. All rights reserved.
+:::
+:::
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>

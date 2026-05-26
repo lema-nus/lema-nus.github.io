@@ -1,0 +1,99 @@
+---
+title: "Contact"
+description: "Contact and recruiting information for LEMA Lab at the National University of Singapore."
+---
+
+::: {.page-hero}
+
+# Contact
+:::
+
+::: {#openings .section}
+::: {.section-heading}
+
+## Open Positions
+:::
+
+::: {.application-callout}
+::: {.application-copy}
+For PhD, postdoc, and visiting student inquiries, please submit the form first. Include a CV, research interests, and<br>links to representative work when available.
+:::
+::: {.application-action}
+[Application Form](https://forms.office.com/r/xrW0nmy1Gi?origin=lprLink){.btn .btn-primary}
+:::
+:::
+
+::: {.opportunity-grid}
+::: {.opportunity-card}
+### PhD Students
+
+For PhD applicants, please also follow the [NUS CS PhD application process](https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/#deadline) by June 15 (spring intake) or Dec 15 (fall intake).
+:::
+::: {.opportunity-card}
+### Postdoctoral Researchers
+
+For postdoc applicants, please include a CV, representative papers, reference contacts, and possible project directions.
+:::
+
+::: {.opportunity-card}
+### Research Interns
+
+For internship or visiting applicants, please include an expected timeline, funding status, and research interests.
+:::
+:::
+:::
+
+
+:::: {.section .why-section}
+::: {.section-heading}
+
+## Why Join Us
+:::
+
+::: {.why-grid}
+::: {.why-card}
+### Lab Research
+
+Our recent work has been recognized with Best Paper awards at the ICLR World Model Workshop and the RSS Robot Representation Workshop, Oral at ICML, and invited talks at OpenAI.
+:::
+
+::: {.why-card}
+### Global Collaboration
+
+Our lab builds on broad collaborations across NUS and with researchers at leading institutions worldwide, including Stanford, Harvard, ETHZ, EPFL, MPI, Tsinghua, ISTA, Oxford, and beyond.
+:::
+
+::: {.why-card}
+### NUS AI Research
+
+
+NUS Computing is consistently recognized among the world’s leading computer science programs, ranked globally at #4 by QS, #5 by US News, and #13 by Times in recent subject rankings.
+:::
+
+::: {.why-card}
+### Singapore AI Hub
+
+Singapore is rapidly emerging as a global AI hub, powered by major national investment and growing activity from Google DeepMind, Microsoft Research, ByteDance Seed, and other AI organizations.
+:::
+:::
+:::
+
+
+::: {.section .contact-overview}
+::: {.contact-card .general-contact}
+::: {.contact-details}
+::: {.contact-detail}
+**Email:** yuejiang.liu [at] cs.stanford.edu
+:::
+::: {.contact-detail}
+**Address:** COM 1, 13 Computing Drive, Singapore 117417
+:::
+:::
+:::
+:::
+
+::: {.site-footer}
+::: {.footer-copyright}
+© 2026 LEMA Lab. All rights reserved.
+:::
+:::
