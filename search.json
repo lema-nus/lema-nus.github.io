@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "contact.html#open-positions",
+    "href": "contact.html#open-positions",
+    "title": "Contact",
+    "section": "Open Positions",
+    "text": "Open Positions"
+  },
+  {
+    "objectID": "contact.html#why-join-us",
+    "href": "contact.html#why-join-us",
+    "title": "Contact",
+    "section": "Why Join Us",
+    "text": "Why Join Us"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Learning for Embodied Minds and Agents\n\n\n\n\nWelcome to the LEMA Lab in the Department of Computer Science at the National University of Singapore. We are a collaborative group of researchers working to build intelligent agents that can perceive, reason, and act in the physical world. Our research bridges machine learning, computer vision, and robotics, with a focus on learning agents that can generalize from limited data, adapt during deployment, remember what matters, and improve through experience."
+  },
+  {
+    "objectID": "index.html#open-positions",
+    "href": "index.html#open-positions",
+    "title": "Home",
+    "section": "Open Positions",
+    "text": "Open Positions\nWe welcome PhD students, postdoctoral researchers, and visiting students interested in building the next generation of embodied agents, with research directions including robot learning, world models, multimodal agents, data curation, and recursive self-improvement."
+  },
+  {
+    "objectID": "index.html#research-directions",
+    "href": "index.html#research-directions",
+    "title": "Home",
+    "section": "Research Directions",
+    "text": "Research Directions\nWe study how embodied agents can learn from interaction, reason about the physical world, and improve autonomously."
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Home",
+    "section": "Selected Publications",
+    "text": "Selected Publications"
+  },
+  {
+    "objectID": "index.html#team-members",
+    "href": "index.html#team-members",
+    "title": "Home",
+    "section": "Team Members",
+    "text": "Team Members"
+  }
+]
