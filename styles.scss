@@ -908,7 +908,24 @@ p {
 }
 
 .application-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
   flex: 0 0 auto;
+}
+
+.application-action p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}
+
+.application-action .btn {
+  align-self: center;
+  white-space: nowrap;
 }
 
 .page-hero {

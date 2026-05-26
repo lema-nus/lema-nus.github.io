@@ -16,7 +16,7 @@ description: "Contact and recruiting information for LEMA Lab at the National Un
 
 ::: {.application-callout}
 ::: {.application-copy}
-For PhD, postdoc, and visiting student inquiries, please submit the form first. Include a CV, research interests, and<br>links to representative work when available.
+For PhD, postdoc, and visiting student inquiries, please submit the form first. Include a CV, research interests, and links to representative work when available.
 :::
 ::: {.application-action}
 [Application Form](https://forms.office.com/r/xrW0nmy1Gi?origin=lprLink){.btn .btn-primary}
@@ -54,7 +54,7 @@ For internship or visiting applicants, please include an expected timeline, fund
 ::: {.why-card}
 ### Lab Research
 
-Our recent work has been recognized with Best Paper awards at the ICLR World Model Workshop and the RSS Robot Representation Workshop, Oral at ICML, and invited talks at OpenAI.
+Our recent work has been recognized with Best Paper awards at the ICLR World Model Workshop and the RSS Robot Representation Workshop, Oral at ICML, and invited talks at OpenAI, NVIDIA, etc.
 :::
 
 ::: {.why-card}
