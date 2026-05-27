@@ -95,6 +95,17 @@ Yuejiang Liu, Fan Feng, Lingjing Kong, Weifeng Lu, Jinzhou Tang, Kun Zhang, Kevi
 :::
 
 ::: {.publication-card}
+### Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment
+
+Jacky Kwok, Xilun Zhang, Mengdi Xu, Yuejiang Liu, Azalia Mirhoseini, Chelsea Finn, Marco Pavone  
+
+<div class="publication-meta">
+<div class="publication-venue"><em>Preprint, 2026. <span class="pub-note">Best Paper Finalist</span>, CVPR Scalable Robot Learning Workshop</em></div>
+<div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2602.12281">Paper</a><a class="pub-link" href="https://cover-vla.github.io">Project</a><a class="pub-link" href="https://github.com/cover-vla/cover-vla">Code</a></div>
+</div>
+:::
+
+::: {.publication-card}
 ### RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies
 
 Yinpei Dai, Hongze Fu, Jayjun Lee, Yuejiang Liu, Haoran Zhang, Jianing Yang, Chelsea Finn, Nima Fazeli, Joyce Chai  
@@ -137,6 +148,7 @@ Yuejiang Liu, Jubayer Ibn Hamid, Annie Xie, Yoonho Lee, Max Du, Chelsea Finn
 <div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2408.17355">Paper</a><a class="pub-link" href="https://bid-robot.github.io/">Project</a><a class="pub-link" href="https://github.com/YuejiangLIU/bid_diffusion">Code</a></div>
 </div>
 :::
+
 :::
 :::
 
