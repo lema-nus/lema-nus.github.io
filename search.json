@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "contact.html#open-positions",
-    "href": "contact.html#open-positions",
-    "title": "Contact",
-    "section": "Open Positions",
-    "text": "Open Positions"
-  },
-  {
-    "objectID": "contact.html#why-join-us",
-    "href": "contact.html#why-join-us",
-    "title": "Contact",
-    "section": "Why Join Us",
-    "text": "Why Join Us"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
@@ -47,5 +33,19 @@
     "title": "Home",
     "section": "Team Members",
     "text": "Team Members"
+  },
+  {
+    "objectID": "contact.html#open-positions",
+    "href": "contact.html#open-positions",
+    "title": "Contact",
+    "section": "Open Positions",
+    "text": "Open Positions"
+  },
+  {
+    "objectID": "contact.html#why-join-us",
+    "href": "contact.html#why-join-us",
+    "title": "Contact",
+    "section": "Why Join Us",
+    "text": "Why Join Us"
   }
 ]
