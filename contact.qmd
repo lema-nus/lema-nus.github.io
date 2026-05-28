@@ -54,7 +54,7 @@ For internship or visiting applicants, please include an expected timeline, fund
 ::: {.why-card}
 ### Lab Research
 
-Our recent work has been recognized with Best Paper awards at the ICLR World Model Workshop and the RSS Robot Representation Workshop, Oral at ICML, and invited talks at OpenAI, NVIDIA, etc.
+Our recent work has been recognized with three Best Paper awards at ICLR, CVPR, and RSS workshops, Oral at ICML, and invited talks at leading industrial research labs such as OpenAI and NVIDIA.
 :::
 
 ::: {.why-card}
