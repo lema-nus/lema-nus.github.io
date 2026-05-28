@@ -54,7 +54,7 @@ For internship or visiting applicants, please include an expected timeline, fund
 ::: {.why-card}
 ### Lab Research
 
-Our recent work has been recognized with three Best Paper awards at ICLR, CVPR, and RSS workshops, Oral at ICML, and invited talks at leading industrial research labs such as OpenAI and NVIDIA.
+Our recent work has been recognized with Best Paper awards at ICLR, CVPR, and RSS workshops, Oral at ICML, and invited talks at UC Berkeley, OpenAI, NVIDIA, etc.
 :::
 
 ::: {.why-card}

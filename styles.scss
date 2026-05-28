@@ -335,7 +335,7 @@ p {
 
 .join-content {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(198px, 16.5vw, 220px);
+  grid-template-columns: minmax(0, 1fr) clamp(168px, 13.8vw, 182px);
   align-items: stretch;
   gap: clamp(0.9rem, 2.2vw, 1.45rem);
 }
@@ -391,7 +391,7 @@ p {
 
   width: 100%;
   min-height: 104px;
-  padding: 0.78rem 1rem;
+  padding: 0.78rem 0.78rem;
 
   background: rgba(18, 63, 117, 0.07);
   border: 1px solid rgba(18, 63, 117, 0.14);
@@ -411,7 +411,7 @@ p {
   font-size: 1.34rem;
   font-weight: 830;
   line-height: 1.03;
-  margin-bottom: 0.06rem;
+  margin-bottom: 0.18rem;
 }
 
 .join-button-sub {
@@ -498,7 +498,7 @@ p {
   }
 
   .join-button {
-    width: min(248px, 100%);
+    width: min(176px, 100%);
   }
 }
 
@@ -1316,9 +1316,9 @@ p {
   }
 
   .join-button {
-    width: min(218px, 100%);
+    width: min(176px, 100%);
     min-height: 98px;
-    padding: 0.72rem 0.9rem;
+    padding: 0.72rem 0.72rem;
   }
 
   .join-button-main {
