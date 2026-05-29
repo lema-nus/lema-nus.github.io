@@ -31,8 +31,8 @@ We welcome PhD students, postdoctoral researchers, and visiting students interes
 ::: {.join-action}
 <a class="join-button" href="contact.html#openings" aria-label="Apply to LEMA Lab openings">
   <span class="join-button-main">Join Us</span>
+  <span class="join-button-intake">Next Spring PhD</span>
   <span class="join-button-deadline">Apply by June 15</span>
-  <span class="join-button-intake">Spring PhD Intake</span>
 </a>
 :::
 :::
