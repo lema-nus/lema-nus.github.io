@@ -57,7 +57,7 @@ How can robot policies adapt dynamically at inference time to handle new tasks, 
 ::: {.research-question}
 <div class="research-question-head">
   <i data-lucide="orbit" class="research-icon"></i>
-  <strong>Predictive World Models</strong>
+  <strong>Interactive World Models</strong>
 </div>
 How can structured world models help agents anticipate spatial, temporal, and physical interactions before acting?
 :::
