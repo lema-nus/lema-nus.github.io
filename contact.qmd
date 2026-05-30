@@ -44,7 +44,7 @@ For internship or visiting applicants, please include an expected timeline, fund
 :::
 
 
-:::: {.section .why-section}
+::: {.section .why-section}
 ::: {.section-heading}
 
 ## Why Join Us
@@ -66,7 +66,6 @@ Our lab builds on broad collaborations across NUS and with researchers at leadin
 ::: {.why-card}
 ### NUS AI Research
 
-
 NUS Computing is consistently recognized among the world’s leading computer science programs, ranked globally at #4 by QS, #5 by US News, and #13 by Times in recent subject rankings.
 :::
 
@@ -77,6 +76,34 @@ Singapore is rapidly emerging as a global AI hub, powered by major national inve
 :::
 :::
 :::
+
+
+::: {.section .look-for-section}
+::: {.section-heading}
+
+## Who We Look For
+:::
+
+::: {.qualification-grid}
+::: {.qualification-card}
+### Required Qualifications
+
+- Strong background in machine learning, robot learning, computer vision, robotics, physics, or related areas.
+- Good written and verbal communication skills, with the ability to explain ideas clearly and collaborate effectively.
+- Intellectual honesty, research integrity, and a responsible attitude toward scientific rigor and reproducibility.
+:::
+
+::: {.qualification-card}
+### Preferred Qualifications
+
+- Intrinsic curiosity and genuine interest in fundamental research on embodied intelligence and learning agents.
+- Independent thinking, ownership, and a demonstrated record of initiative or exceptional achievement.
+- Prior research experience, such as one or more first-/co-first-author publications or submissions in relevant venues.
+:::
+:::
+:::
+
+
 
 
 ::: {.section .contact-overview}

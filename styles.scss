@@ -151,6 +151,7 @@ p {
 #publications,
 .members-section,
 .why-section,
+.look-for-section,
 .contact-overview,
 .site-footer,
 .page-hero {
@@ -165,6 +166,7 @@ p {
 #publications > section.level2,
 .members-section > section.level2,
 .why-section > section.level2,
+.look-for-section > section.level2,
 .theme-card > section,
 .publication-card > section {
   display: contents;
@@ -634,6 +636,7 @@ p {
 .member-card,
 .contact-card,
 .opportunity-card,
+.qualification-card,
 .why-card {
   background: var(--lema-surface);
   border: 1px solid var(--lema-line);
@@ -645,6 +648,7 @@ p {
 .publication-card,
 .member-card,
 .opportunity-card,
+.qualification-card,
 .why-card {
   padding: 0.9rem;
 }
@@ -658,12 +662,14 @@ p {
 .publication-card p,
 .member-card p,
 .opportunity-card p,
+.qualification-card p,
 .why-card p {
   color: #475166;
   font-size: 0.93rem;
 }
 
 .opportunity-card p,
+.qualification-card p,
 .why-card p {
   margin-bottom: 0;
 }
@@ -909,6 +915,12 @@ p {
   border-top: 1px solid var(--lema-line);
 }
 
+.look-for-section {
+  margin-top: clamp(1rem, 2.2vw, 1.55rem);
+  padding-top: clamp(1rem, 2vw, 1.45rem);
+  border-top: 1px solid var(--lema-line);
+}
+
 #openings {
   padding-top: clamp(1.2rem, 2.4vw, 1.85rem);
   padding-bottom: clamp(0.9rem, 2vw, 1.45rem);
@@ -919,9 +931,45 @@ p {
 }
 
 .why-card h3,
-.opportunity-card h3 {
+.opportunity-card h3,
+.qualification-card h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+}
+
+.qualification-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.qualification-card ul {
+  display: grid;
+  gap: 0.34rem;
+  margin: 0;
+  padding-left: 1.05rem;
+}
+
+.qualification-card li {
+  color: #475166;
+  font-size: 0.93rem;
+  line-height: 1.42;
+}
+
+.fit-note {
+  margin-top: 0.75rem;
+  padding: 0.82rem 0.9rem;
+  background: rgba(18, 63, 117, 0.045);
+  border: 1px solid rgba(18, 63, 117, 0.11);
+  border-radius: var(--lema-radius);
+  color: #3a465c;
+  font-size: 0.95rem;
+  line-height: 1.48;
+  text-align: center;
+}
+
+.fit-note p {
+  margin: 0;
 }
 
 .application-callout {
@@ -1120,6 +1168,7 @@ p {
   .compact-grid,
   .members-grid,
   .opportunity-grid,
+  .qualification-grid,
   .why-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1134,6 +1183,7 @@ p {
   .members-section,
   .site-footer,
   .page-hero,
+  .look-for-section,
   .why-section {
     width: min(100% - 28px, 1120px);
   }
@@ -1169,6 +1219,7 @@ p {
   .research-questions,
   .members-grid,
   .why-grid,
+  .qualification-grid,
   .opportunity-grid {
     grid-template-columns: 1fr;
   }
@@ -1271,6 +1322,7 @@ p {
   .members-section,
   .site-footer,
   .page-hero,
+  .look-for-section,
   .why-section {
     width: min(100% - 28px, 1120px);
   }
@@ -1334,6 +1386,7 @@ p {
   #research,
   #publications,
   .members-section,
+  .look-for-section,
   .why-section {
     margin-top: 1.05rem;
     padding-top: 1.05rem;
@@ -1362,6 +1415,7 @@ p {
   .publication-card,
   .member-card,
   .opportunity-card,
+  .qualification-card,
   .why-card {
     padding: 0.85rem;
   }
@@ -1471,6 +1525,7 @@ p {
   .members-section,
   .site-footer,
   .page-hero,
+  .look-for-section,
   .why-section {
     width: min(100% - 24px, 1120px);
   }
