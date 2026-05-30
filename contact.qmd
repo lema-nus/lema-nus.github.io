@@ -16,7 +16,7 @@ description: "Contact and recruiting information for LEMA Lab at the National Un
 
 ::: {.application-callout}
 ::: {.application-copy}
-Our lab has openings for 4–7 PhD students, 1 postdoc fellow, and several visiting students in 2026 and 2027. Please submit the application form first, including a CV, research interests, and links to representative work.
+Our lab has openings for 3–6 PhD students, 1 postdoc fellow, and several visiting students in 2026 and 2027. Please submit the application form first, including a CV, research interests, and links to representative work.
 :::
 ::: {.application-action}
 [Application Form](https://forms.office.com/r/xrW0nmy1Gi?origin=lprLink){.btn .btn-primary}
