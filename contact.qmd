@@ -16,7 +16,7 @@ description: "Contact and recruiting information for LEMA Lab at the National Un
 
 ::: {.application-callout}
 ::: {.application-copy}
-Our lab has openings for 3–6 PhD students, 1 postdoc fellow, and several visiting students in 2026 and 2027. Please submit the application form first, including a CV, research interests, and links to representative work.
+Our lab has openings for 3–6 PhD students, 1 postdoc fellow, and several visiting students in 2027. Please submit the application form first, including a CV, research interests, and links to representative work.
 :::
 ::: {.application-action}
 [Application Form](https://forms.office.com/r/xrW0nmy1Gi?origin=lprLink){.btn .btn-primary}
@@ -66,13 +66,13 @@ Our lab builds on broad collaborations across NUS and with researchers at leadin
 ::: {.why-card}
 ### NUS AI Research
 
-NUS Computing is consistently recognized among the world’s leading computer science programs, ranked globally at #4 by QS, #5 by US News, and #13 by Times in recent subject rankings.
+NUS is consistently recognized among the leading computer science programs, ranked globally at #4 by QS, #5 by US News, and #13 by Times in recent subject rankings.
 :::
 
 ::: {.why-card}
 ### Singapore AI Hub
 
-Singapore is rapidly emerging as a global AI hub, powered by major national investment and growing activity from Google DeepMind, Microsoft Research, ByteDance Seed, and other AI organizations.
+Singapore is emerging as a global AI hub, with growing activity from Google DeepMind, Microsoft Research, and other leading industry labs, creating strong opportunities for research careers.
 :::
 :::
 :::
@@ -86,19 +86,19 @@ Singapore is rapidly emerging as a global AI hub, powered by major national inve
 
 ::: {.qualification-grid}
 ::: {.qualification-card}
-### Required Qualifications
+### Minimum Qualifications
 
+- Intellectual honesty, research integrity, and a responsible attitude toward scientific reproducibility.
 - Strong background in machine learning, robot learning, computer vision, robotics, physics, or related areas.
 - Good written and verbal communication skills, with the ability to explain ideas clearly and collaborate effectively.
-- Intellectual honesty, research integrity, and a responsible attitude toward scientific rigor and reproducibility.
 :::
 
 ::: {.qualification-card}
 ### Preferred Qualifications
 
-- Intrinsic curiosity and genuine interest in fundamental research on embodied intelligence and learning agents.
+- Intrinsic curiosity and genuine interest in fundamental research on embodied learning agents.
 - Independent thinking, ownership, and a demonstrated record of initiative or exceptional achievement.
-- Prior research experience, such as one or more first-/co-first-author publications or submissions in relevant venues.
+- Prior research experience, such as first-/co-first-author publications or submissions in relevant venues.
 :::
 :::
 :::
