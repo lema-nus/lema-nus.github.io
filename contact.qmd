@@ -88,7 +88,7 @@ Singapore is emerging as a global AI hub, with growing activity from Google Deep
 ::: {.qualification-card}
 ### Minimum Qualifications
 
-- Intellectual honesty, research integrity, and a responsible attitude toward scientific reproducibility.
+- Uncompromising intellectual honesty and research integrity.
 - Strong background in machine learning, robot learning, computer vision, robotics, physics, or related areas.
 - Good written and verbal communication skills, with the ability to explain ideas clearly and collaborate effectively.
 :::
@@ -96,9 +96,9 @@ Singapore is emerging as a global AI hub, with growing activity from Google Deep
 ::: {.qualification-card}
 ### Preferred Qualifications
 
-- Intrinsic curiosity and genuine interest in fundamental research on embodied learning agents.
+- Intrinsic curiosity and genuine interest in fundamental research.
 - Independent thinking, ownership, and a demonstrated record of initiative or exceptional achievement.
-- Prior research experience, such as first-/co-first-author publications or submissions in relevant venues.
+- Evidence of substantial prior research experience, such as high-quality publications or submissions in relevant venues.
 :::
 :::
 :::

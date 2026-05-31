@@ -5,18 +5,23 @@ description: "Learning for Embodied Minds and Agents at the National University 
 
 ::: {.hero}
 ::: {.hero-content}
+
 <div class="hero-brand">
-  <h1 class="hero-title" aria-label="LEMA">
+  <h1 class="hero-title" aria-label="LEMA Lab">
     <span class="hero-acronym" aria-hidden="true">
       <span class="lema-letter lema-letter-l">L</span><span class="lema-letter lema-letter-e">E</span><span class="lema-letter lema-letter-m">M</span><span class="lema-letter lema-letter-a">A</span>
     </span>
     <span class="hero-lab">Lab</span>
+    <span class="name-note-wrap name-note-brand"><span class="name-note-trigger" tabindex="0" role="button" aria-describedby="name-note" aria-label="What does LEMA mean?">i</span><span id="name-note" class="name-note" role="tooltip"><span class="name-note-label">Name note</span><span>Pronounced “lemma” in English, our lab is committed to discovering simple and scalable principles behind embodied intelligence with as little manual effort as possible.<br>Read as “乐马” in Mandarin, our lab was born in the Year of the Horse (马), embracing the joy (乐) of learning, exploring, and growing in research and life.</span></span></span>
   </h1>
+
   <div class="hero-full-name" aria-label="Learning for Embodied Minds and Agents"><span><span class="full-initial full-initial-l">L</span>earning</span> <span>for</span> <span><span class="full-initial full-initial-e">E</span>mbodied</span> <span><span class="full-initial full-initial-m">M</span>inds</span> <span>and</span> <span><span class="full-initial full-initial-a">A</span>gents</span></div>
 </div>
+
 <div class="hero-intro">
-  <p>Welcome to the LEMA Lab <span class="name-note-wrap"><span class="name-note-trigger" tabindex="0" role="button" aria-describedby="name-note" aria-label="What does LEMA mean?">i</span><span id="name-note" class="name-note" role="tooltip"><span class="name-note-label">Name note</span><span>Pronounced “lemma” in English, our lab is committed to discovering simple and scalable principles behind embodied intelligence with as little manual effort as possible.<br>Read as “乐马” in Mandarin, our lab was born in the Year of the Horse and embraces the joy of learning, exploring, and growing while navigating the challenges of research and life.</span></span></span> in the Department of Computer Science at the National University of Singapore. We are a collaborative group of researchers working to build intelligent agents that can perceive, reason, and act in the physical world. Our research bridges machine learning, computer vision, and robotics, with a focus on learning agents that can generalize from limited data, adapt during deployment, remember what matters, and improve through experience.</p>
+  <p>Welcome to the LEMA Lab in the Department of Computer Science at the National University of Singapore. We are a collaborative group of researchers working to build intelligent agents that can perceive, reason, and act in the physical world. Our research bridges machine learning, computer vision, and robotics, with a focus on learning agents that can generalize from limited data, adapt during deployment, remember what matters, and improve through experience.</p>
 </div>
+
 :::
 :::
 
