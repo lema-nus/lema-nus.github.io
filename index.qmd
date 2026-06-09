@@ -169,21 +169,23 @@ Yuejiang Liu, Jubayer Ibn Hamid, Annie Xie, Yoonho Lee, Max Du, Chelsea Finn
 Principal Investigator
 :::
 
-### Yuejiang Liu
+### [Yuejiang Liu](https://yuejiangliu.github.io/)
 
 ::: {.pi-details}
 ::: {.pi-line}
 Assistant Professor, NUS
 :::
 ::: {.pi-line}
-[Presidential Young Professorship](https://www.nus.edu.sg/careers/nus-programmes)
+Presidential Young Professorship
 :::
 ::: {.pi-line}
-[Department of Computer Science](https://www.comp.nus.edu.sg/cs/research/)
+Department of Computer Science
 :::
 :::
 
-[Website](https://sites.google.com/view/yuejiangliu/home){.pub-link} [Scholar](https://scholar.google.com/citations?hl=en&user=Xi-B5WIAAAAJ){.pub-link} [Twitter](https://x.com/liu_yuejiang){.pub-link}
+::: {.pi-links}
+[Scholar](https://scholar.google.com/citations?hl=en&user=Xi-B5WIAAAAJ){.pub-link} [Twitter](https://x.com/liu_yuejiang){.pub-link} [RedNote](https://www.xiaohongshu.com/user/profile/5f091f240000000001006b82){.pub-link}
+:::
 :::
 
 ::: {.member-card .current-card}
