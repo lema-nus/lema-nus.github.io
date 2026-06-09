@@ -1235,6 +1235,28 @@ p {
   white-space: nowrap;
 }
 
+.application-note {
+  width: 100%;
+  max-width: none;
+  margin-top: 0.72rem;
+  color: #667085;
+  font-size: 0.88rem;
+  line-height: 1.52;
+}
+
+.application-note p {
+  margin: 0;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+}
+
+.application-note p::before {
+  color: var(--lema-navy);
+  font-style: normal;
+  font-weight: 700;
+}
+
 .page-hero {
   padding-top: clamp(2.2rem, 4.6vw, 3.6rem);
   padding-bottom: clamp(1rem, 2.8vw, 2rem);

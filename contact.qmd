@@ -41,8 +41,12 @@ For postdoc applicants, please include a CV, representative papers, reference co
 For internship or visiting applicants, please include an expected timeline, funding status, and research interests.
 :::
 :::
+
+::: {.application-note}
+Due to the high volume of applications and inquiries, I may not be able to respond to every individual message, but I sincerely appreciate each application. If you believe you are a strong fit and have not received a reply within one week, you are welcome to follow up.
 :::
 
+:::
 
 ::: {.section .why-section}
 ::: {.section-heading}
