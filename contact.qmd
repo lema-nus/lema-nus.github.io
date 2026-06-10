@@ -114,7 +114,7 @@ Singapore is emerging as a global AI hub, with growing activity from Google Deep
 ::: {.contact-card .general-contact}
 ::: {.contact-details}
 ::: {.contact-detail}
-**Email:** yuejiang.liu [at] cs.stanford.edu
+**Email:** liuyj [at] comp.nus.edu.sg
 :::
 ::: {.contact-detail}
 **Address:** COM 1, 13 Computing Drive, Singapore 117417
