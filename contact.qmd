@@ -14,6 +14,10 @@ description: "Contact and recruiting information for LEMA Lab at the National Un
 ## Open Positions
 :::
 
+::: {.application-note}
+Due to the high volume of inquiries, I may not be able to respond to every message. If you believe you are a strong fit and do not receive a reply within <span class="followup-window">one week</span>, you may follow up by email using the subject line “NUS-LEMA Application | [Expected Role] | [Current Affiliation]”.
+:::
+
 ::: {.application-callout}
 ::: {.application-copy}
 Our lab has openings for 3–6 PhD students, 1 postdoc fellow, and several visiting students in 2027. Please submit the application form first, including a CV, research interests, and links to representative work.
@@ -40,10 +44,6 @@ For postdoc applicants, please include a CV, representative papers, reference co
 
 For internship or visiting applicants, please include an expected timeline, funding status, and research interests.
 :::
-:::
-
-::: {.application-note}
-Due to the high volume of applications and inquiries, I may not be able to respond to every individual message, but I sincerely appreciate each application. If you believe you are a strong fit and have not received a reply within one week, you are welcome to follow up.
 :::
 
 :::
