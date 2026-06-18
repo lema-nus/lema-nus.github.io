@@ -105,7 +105,7 @@ Yuejiang Liu, Fan Feng, Lingjing Kong, Weifeng Lu, Jinzhou Tang, Kun Zhang, Kevi
 Jacky Kwok, Xilun Zhang, Mengdi Xu, Yuejiang Liu, Azalia Mirhoseini, Chelsea Finn, Marco Pavone  
 
 <div class="publication-meta">
-<div class="publication-venue"><em>Preprint, 2026. <span class="pub-note">Best Paper Finalist</span>, CVPR Scalable Robot Learning Workshop</em></div>
+<div class="publication-venue"><em>ECCV, 2026. <span class="pub-note">Best Paper Finalist</span>, CVPR Scalable Robot Learning Workshop</em></div>
 <div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2602.12281">Paper</a><a class="pub-link" href="https://cover-vla.github.io">Project</a><a class="pub-link" href="https://github.com/cover-vla/cover-vla">Code</a></div>
 </div>
 :::
