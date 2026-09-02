@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -35,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-109e9772717ea4e50b9d8a445b04afdc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-89c1c2551475fd9db532f438362d2132.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -200,6 +203,18 @@ Welcome to the LEMA Lab in the Department of Computer Science at the National Un
 <p>Below is a representative selection of recent publications. For the full publication list, please refer to the <a href="https://scholar.google.com/citations?hl=en&amp;user=Xi-B5WIAAAAJ">Google Scholar</a> profile.</p>
 </div>
 <div class="publication-list">
+<section id="llm-as-a-verifier-a-general-purpose-verification-framework" class="level3 publication-card">
+<h3 data-anchor-id="llm-as-a-verifier-a-general-purpose-verification-framework">LLM-as-a-Verifier: A General-Purpose Verification Framework</h3>
+<p>Jacky Kwok, Shulu Li, Pranav Atreya, Yuejiang Liu, Yixing Jiang, Chelsea Finn, Marco Pavone, Ion Stoica, Azalia Mirhoseini</p>
+<div class="publication-meta">
+<div class="publication-venue">
+<em>Preprint, 2026. <a class="pub-note-link" href="https://x.com/i/trending/2089820018146181259"><strong>Daily News</strong></a> on Twitter. 3k+ GitHub stars</em>
+</div>
+<div class="publication-links">
+<a class="pub-link" href="https://arxiv.org/abs/2607.05391">Paper</a><a class="pub-link" href="https://llm-as-a-verifier.com/">Project</a><a class="pub-link" href="https://github.com/llm-as-a-verifier/llm-as-a-verifier">Code</a>
+</div>
+</div>
+</section>
 <section id="world-action-verifier-self-improving-world-models-via-forward-inverse-asymmetry" class="level3 publication-card">
 <h3 data-anchor-id="world-action-verifier-self-improving-world-models-via-forward-inverse-asymmetry">World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry</h3>
 <p>Yuejiang Liu, Fan Feng, Lingjing Kong, Weifeng Lu, Jinzhou Tang, Kun Zhang, Kevin Murphy, Chelsea Finn, Yilun Du</p>
@@ -320,12 +335,6 @@ Welcome to the LEMA Lab in the Department of Computer Science at the National Un
 </div>
 <div class="current-item">
 <p><a href="https://www.linkedin.com/in/alec-lessing-3a1a77301">Alec Lessing</a>, MSc, Stanford</p>
-</div>
-<div class="current-item">
-<p><a href="https://www.linkedin.com/in/duyiblue">Yi Du</a>, MSc, Stanford</p>
-</div>
-<div class="current-item">
-<p><a href="https://www.linkedin.com/in/erichliang">Eric Liang</a>, MSc, Stanford</p>
 </div>
 </div>
 </div>
