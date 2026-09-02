@@ -927,6 +927,16 @@ p {
   font-weight: 800;
 }
 
+.pub-note-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pub-note-link:hover {
+  color: var(--lema-blue);
+  text-decoration: none;
+}
+
 .pub-note-award {
   color: #a94f1d;
 }

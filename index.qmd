@@ -89,6 +89,17 @@ Below is a representative selection of recent publications. For the full publica
 
 ::: {.publication-list}
 ::: {.publication-card}
+### LLM-as-a-Verifier: A General-Purpose Verification Framework
+
+Jacky Kwok, Shulu Li, Pranav Atreya, Yuejiang Liu, Yixing Jiang, Chelsea Finn, Marco Pavone, Ion Stoica, Azalia Mirhoseini  
+
+<div class="publication-meta">
+<div class="publication-venue"><em>Preprint, 2026. <a class="pub-note-link" href="https://x.com/i/trending/2089820018146181259"><strong>Daily News</strong></a> on Twitter. 3k+ GitHub stars</em></div>
+<div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2607.05391">Paper</a><a class="pub-link" href="https://llm-as-a-verifier.com/">Project</a><a class="pub-link" href="https://github.com/llm-as-a-verifier/llm-as-a-verifier">Code</a></div>
+</div>
+:::
+
+::: {.publication-card}
 ### World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry
 
 Yuejiang Liu, Fan Feng, Lingjing Kong, Weifeng Lu, Jinzhou Tang, Kun Zhang, Kevin Murphy, Chelsea Finn, Yilun Du  
@@ -208,12 +219,6 @@ Current
 :::
 ::: {.current-item}
 [Alec Lessing](https://www.linkedin.com/in/alec-lessing-3a1a77301), MSc, Stanford
-:::
-::: {.current-item}
-[Yi Du](https://www.linkedin.com/in/duyiblue), MSc, Stanford
-:::
-::: {.current-item}
-[Eric Liang](https://www.linkedin.com/in/erichliang), MSc, Stanford
 :::
 :::
 :::
