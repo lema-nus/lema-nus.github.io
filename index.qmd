@@ -105,7 +105,7 @@ Jacky Kwok, Shulu Li, Pranav Atreya, Yuejiang Liu, Yixing Jiang, Chelsea Finn, M
 Yuejiang Liu, Fan Feng, Lingjing Kong, Weifeng Lu, Jinzhou Tang, Kun Zhang, Kevin Murphy, Chelsea Finn, Yilun Du  
 
 <div class="publication-meta">
-<div class="publication-venue"><em>Preprint, 2026. <span class="pub-note">Best Paper</span>, ICLR World Model Workshop</em></div>
+<div class="publication-venue"><em>NeurIPS, 2026. <span class="pub-note">Best Paper Award</span>, ICLR World Model Workshop</em></div>
 <div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2604.01985">Paper</a><a class="pub-link" href="https://world-action-verifier.github.io/">Project</a><a class="pub-link" href="https://github.com/world-action-verifier/wav_robot">Code</a></div>
 </div>
 :::
@@ -138,7 +138,7 @@ Yinpei Dai, Hongze Fu, Jayjun Lee, Yuejiang Liu, Haoran Zhang, Jianing Yang, Che
 Marcel Torne, Andy Tang, Yuejiang Liu, Chelsea Finn  
 
 <div class="publication-meta">
-<div class="publication-venue"><em>Conference on Robot Learning (CoRL), 2025. <span class="pub-note">Best Paper</span>, RSS Robot Representation Workshop</em></div>
+<div class="publication-venue"><em>Conference on Robot Learning (CoRL), 2025. <span class="pub-note">Best Paper Award</span>, RSS Robot Representation Workshop</em></div>
 <div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2505.09561">Paper</a><a class="pub-link" href="https://long-context-dp.github.io/">Project</a><a class="pub-link" href="https://github.com/long-context-dp/ldp">Code</a></div>
 </div>
 :::
