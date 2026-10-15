@@ -876,23 +876,13 @@ p {
 .publication-list {
   display: grid;
   gap: 0.55rem;
-  max-height: 522px;
+  max-height: var(--publication-preview-height, none);
   overflow-y: auto;
   padding-right: 0.32rem;
   overscroll-behavior: contain;
-  scrollbar-color: rgba(18, 63, 117, 0.28) transparent;
   scrollbar-gutter: stable;
   scrollbar-width: thin;
   -webkit-overflow-scrolling: touch;
-}
-
-.publication-list::-webkit-scrollbar {
-  width: 6px;
-}
-
-.publication-list::-webkit-scrollbar-thumb {
-  background: rgba(18, 63, 117, 0.28);
-  border-radius: 999px;
 }
 
 .publication-card h3 {
@@ -984,39 +974,33 @@ p {
 
 .members-grid {
   display: grid;
-  grid-template-columns: minmax(285px, 0.95fr) minmax(305px, 1fr) minmax(420px, 1.38fr);
+  grid-template-columns: minmax(0, 1.02fr) minmax(0, 1fr) minmax(0, 1.4fr);
+  grid-auto-rows: 1fr;
   align-items: stretch;
   gap: 0.8rem;
 }
 
 .members-grid > .member-card {
-  height: 232px;
-}
-
-.director-card,
-.current-card {
+  min-width: 0;
+  min-height: 0;
   display: flex;
   flex-direction: column;
-}
-
-.member-card h3 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.6rem;
 }
 
 .member-card p {
   margin-bottom: 0.65rem;
 }
 
-.member-role {
-  color: var(--lema-orange);
+.member-card .member-role {
+  margin: 0 0 0.8rem;
+  color: var(--lema-muted);
   font-size: 0.74rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 
-.director-card {
+.lab-card {
   border-top: 4px solid var(--lema-blue);
 }
 
@@ -1029,66 +1013,56 @@ p {
   border-top: 4px solid var(--lema-gold);
 }
 
-.pi-details {
-  display: grid;
-  gap: 0.12rem;
-  margin-bottom: 0.7rem;
-}
-
-.pi-line,
-.alumni-item,
-.current-item {
+.lab-list,
+.current-list,
+.alumni-list {
   color: #475166;
-  font-size: 0.9rem;
-  line-height: 1.3;
+  font-size: 0.88rem;
+  line-height: 1.4;
 }
 
-.pi-line p,
-.alumni-item p,
-.current-item p {
-  margin: 0;
-}
-
-.member-card h3 a,
-.current-item a,
-.alumni-item a {
+.lab-list a,
+.current-list a,
+.alumni-list a {
   color: #475166;
   font-weight: 650;
   text-decoration: none;
 }
 
-.member-card h3 a:hover,
-.current-item a:hover,
-.alumni-item a:hover {
+.lab-list a:hover,
+.current-list a:hover,
+.alumni-list a:hover {
   color: var(--lema-orange);
   text-decoration: none;
 }
 
-.pi-links p {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.38rem;
-  justify-content: flex-start;
-  margin: 0;
-}
-
-.pi-links .pub-link {
-  display: inline-block;
-  min-width: auto;
-  padding-inline: 0.58rem;
-  text-align: center;
-}
-
-.current-list,
-.alumni-list {
+.lab-list ul,
+.current-list ul,
+.alumni-list ul {
   display: grid;
-  gap: 0.18rem;
-  margin-top: 0.35rem;
+  align-content: start;
+  gap: 0.45rem;
+  margin: 0;
+  padding-left: 0.95rem;
+}
+
+.member-card li {
+  text-wrap: pretty;
+}
+
+.lab-list li::marker,
+.current-list li::marker,
+.alumni-list li::marker {
+  color: rgba(18, 63, 117, 0.58);
 }
 
 .current-list,
 .alumni-list {
-  max-height: 154px;
+  /* Let the lab member list set equal card heights as the other lists grow. */
+  contain: size;
+  flex: 1;
+  height: 0;
+  min-height: 0;
   overflow-y: auto;
   overscroll-behavior: contain;
   padding-left: 0.05rem;
@@ -1099,34 +1073,59 @@ p {
   -webkit-overflow-scrolling: touch;
 }
 
-.current-item,
-.alumni-item {
-  position: relative;
-  font-size: 0.88rem;
-  padding: 0.08rem 0 0.08rem 0.82rem;
+.publication-list:focus-visible,
+.current-list:focus-visible,
+.alumni-list:focus-visible {
+  outline: 2px solid var(--lema-blue);
+  outline-offset: 2px;
 }
 
-.current-item::before,
-.alumni-item::before {
-  content: "";
-  position: absolute;
-  top: 0.72em;
-  left: 0.12rem;
-  width: 4px;
-  height: 4px;
-  background: rgba(18, 63, 117, 0.58);
-  border-radius: 50%;
-}
-
-.current-list::-webkit-scrollbar,
-.alumni-list::-webkit-scrollbar {
+.current-list::-webkit-scrollbar {
   width: 6px;
 }
 
-.current-list::-webkit-scrollbar-thumb,
-.alumni-list::-webkit-scrollbar-thumb {
+.current-list::-webkit-scrollbar-thumb {
   background: rgba(18, 63, 117, 0.28);
   border-radius: 999px;
+}
+
+.publication-list,
+.alumni-list {
+  overflow-y: scroll;
+  scrollbar-color: #6f859e #edf1f5;
+}
+
+/* Explicit scrollbar dimensions keep the track visible in Chromium and Safari. */
+@supports selector(::-webkit-scrollbar) {
+  .publication-list,
+  .alumni-list {
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+  }
+}
+
+.publication-list::-webkit-scrollbar,
+.alumni-list::-webkit-scrollbar {
+  width: 9px;
+}
+
+.publication-list::-webkit-scrollbar-track,
+.alumni-list::-webkit-scrollbar-track {
+  background: #edf1f5;
+  border-radius: 999px;
+}
+
+.publication-list::-webkit-scrollbar-thumb,
+.alumni-list::-webkit-scrollbar-thumb {
+  background: #6f859e;
+  border: 1px solid #edf1f5;
+  border-radius: 999px;
+  min-height: 28px;
+}
+
+.publication-list::-webkit-scrollbar-thumb:hover,
+.alumni-list::-webkit-scrollbar-thumb:hover {
+  background: #476787;
 }
 
 .why-section {
@@ -1407,18 +1406,28 @@ p {
   margin: 0;
 }
 
+@media (max-width: 1060px) {
+  .members-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .alumni-card {
+    grid-column: 1 / -1;
+  }
+}
+
 @media (max-width: 980px) {
   .hero-intro {
     max-width: 100%;
   }
 
   .compact-grid,
-  .members-grid,
   .opportunity-grid,
   .qualification-grid,
   .why-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
 }
 
 @media (max-width: 760px) {
@@ -1655,7 +1664,6 @@ p {
 
   .publication-list {
     gap: 0.5rem;
-    max-height: clamp(44rem, 86vh, 48rem);
     padding-right: 0.22rem;
   }
 
@@ -1700,15 +1708,6 @@ p {
   .pub-link,
   .text-link {
     padding: 0.32rem 0.58rem;
-  }
-
-  .members-grid > .member-card {
-    height: auto;
-  }
-
-  .current-list,
-  .alumni-list {
-    max-height: 10rem;
   }
 
   .page-hero {
@@ -1783,10 +1782,6 @@ p {
 
   .hero-full-name {
     font-size: clamp(1.35rem, 7.4vw, 1.9rem);
-  }
-
-  .publication-list {
-    max-height: clamp(42rem, 86vh, 46rem);
   }
 
   .contact-card {

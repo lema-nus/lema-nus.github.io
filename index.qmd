@@ -87,7 +87,7 @@ How can agents verify and learn from their own predictions to improve continuall
 Below is a representative selection of recent publications. For the full publication list, please refer to the [Google Scholar](https://scholar.google.com/citations?hl=en&user=Xi-B5WIAAAAJ) profile.
 :::
 
-::: {.publication-list}
+::: {.publication-list data-visible-count="5" tabindex="0" role="region" aria-label="Selected publications"}
 ::: {.publication-card}
 ### LLM-as-a-Verifier: A General-Purpose Verification Framework
 
@@ -138,7 +138,7 @@ Yinpei Dai, Hongze Fu, Jayjun Lee, Yuejiang Liu, Haoran Zhang, Jianing Yang, Che
 Marcel Torne, Andy Tang, Yuejiang Liu, Chelsea Finn  
 
 <div class="publication-meta">
-<div class="publication-venue"><em>Conference on Robot Learning (CoRL), 2025. <span class="pub-note">Best Paper Award</span>, RSS Robot Representation Workshop</em></div>
+<div class="publication-venue"><em>CoRL, 2025. <span class="pub-note">Best Paper Award</span>, RSS Robot Representation Workshop</em></div>
 <div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2505.09561">Paper</a><a class="pub-link" href="https://long-context-dp.github.io/">Project</a><a class="pub-link" href="https://github.com/long-context-dp/ldp">Code</a></div>
 </div>
 :::
@@ -160,7 +160,7 @@ Annie Chen, Alec Lessing, Yuejiang Liu, Chelsea Finn
 Yuejiang Liu, Jubayer Ibn Hamid, Annie Xie, Yoonho Lee, Max Du, Chelsea Finn  
 
 <div class="publication-meta">
-<div class="publication-venue"><em>International Conference on Learning Representations (ICLR), 2025</em></div>
+<div class="publication-venue"><em>International Conference on Learning Representations (ICLR), 2025. Invited talk at OpenAI.</em></div>
 <div class="publication-links"><a class="pub-link" href="https://arxiv.org/abs/2408.17355">Paper</a><a class="pub-link" href="https://bid-robot.github.io/">Project</a><a class="pub-link" href="https://github.com/YuejiangLIU/bid_diffusion">Code</a></div>
 </div>
 :::
@@ -175,87 +175,43 @@ Yuejiang Liu, Jubayer Ibn Hamid, Annie Xie, Yoonho Lee, Max Du, Chelsea Finn
 :::
 
 ::: {.members-grid}
-::: {.member-card .director-card}
-::: {.member-role}
-Principal Investigator
-:::
+::: {.member-card .lab-card}
+<h3 class="member-role">Lab Members</h3>
 
-### [Yuejiang Liu](https://yuejiangliu.github.io/)
-
-::: {.pi-details}
-::: {.pi-line}
-Assistant Professor, NUS
-:::
-::: {.pi-line}
-Presidential Young Professorship
-:::
-::: {.pi-line}
-Department of Computer Science
-:::
-:::
-
-::: {.pi-links}
-[Scholar](https://scholar.google.com/citations?hl=en&user=Xi-B5WIAAAAJ){.pub-link} [Twitter](https://x.com/liu_yuejiang){.pub-link} [RedNote](https://www.xiaohongshu.com/user/profile/5f091f240000000001006b82){.pub-link}
+::: {.lab-list}
+- [Yuejiang Liu](https://yuejiangliu.github.io/), Assistant Professor
+- [Xiaoye Wang](https://adamwang0224.github.io/), PhD, 2027 Jan -
+- [Michal Tešnar](https://www.linkedin.com/in/michal-tesnar/), RA, 2027 Jan -
+- [Clément Callaert](https://clementcallaert.com/), RA, 2027 Jan -
+- [Zhizheng Zhao](https://zhizhengzhao.github.io/), RA, 2027 Jan -
 :::
 :::
 
 ::: {.member-card .current-card}
-::: {.member-role}
-Current
-:::
+<h3 id="collaborators-heading" class="member-role">Collaborators</h3>
 
-::: {.current-list}
-::: {.current-item}
-[Prospective members](#opportunities), NUS
-:::
-::: {.current-item}
-[Jacky Kwok](https://www.linkedin.com/in/jackykwok02), PhD, Stanford
-:::
-::: {.current-item}
-[Xilun Zhang](https://xilunzhangrobo.github.io/), PhD, Stanford
-:::
-::: {.current-item}
-[Yinpei Dai](https://yinpeidai.github.io/), PhD, U Michigan
-:::
-::: {.current-item}
-[Alec Lessing](https://www.linkedin.com/in/alec-lessing-3a1a77301), MSc, Stanford
-:::
+::: {.current-list tabindex="0" role="region" aria-labelledby="collaborators-heading"}
+- [Jacky Kwok](https://www.linkedin.com/in/jackykwok02), PhD, Stanford
+- [Mingkai Deng](https://mingkaid.github.io/), PhD, CMU
+- [Yinpei Dai](https://yinpeidai.github.io/), PhD, U Michigan
+- [Alec Lessing](https://www.linkedin.com/in/alec-lessing-3a1a77301), MSc, Stanford
+- [Feiyang Wu](https://raventhatfly.github.io/academic-cv/), MSc, Harvard
 :::
 :::
 
 ::: {.member-card .alumni-card}
-::: {.member-role}
-Alumni
-:::
+<h3 id="former-mentees-heading" class="member-role">Former Mentees</h3>
 
-::: {.alumni-list}
-::: {.alumni-item}
-[Xilun Zhang](https://xilunzhangrobo.github.io/), MSc, CMU → PhD, Stanford
-:::
-::: {.alumni-item}
-[Jubayer Hamid](https://jubayer-ibn-hamid.github.io/), BSc, Stanford → PhD, Stanford
-:::
-::: {.alumni-item}
-[Frano Rajič](https://m43.github.io/), MSc, EPFL → PhD, ETH
-:::
-::: {.alumni-item}
-[Qi Yan](https://qiyan98.github.io/), MSc, EPFL → PhD, UBC
-:::
-::: {.alumni-item}
-[Riccardo Cadei](https://www.riccardocadei.com/), MSc, EPFL → PhD, ISTA
-:::
-::: {.alumni-item}
-[Sherwin Bahmani](https://sherwinbahmani.github.io/), MSc, TUD → PhD, U Toronto
-:::
-::: {.alumni-item}
-[Rhea Malhotra](https://rhea-mal.github.io/rheamalhotra/), BSc, Stanford (Best Thesis)
-:::
-::: {.alumni-item}
-[Hao Zhao](https://marcelluszhao.github.io/), MSc, EPFL → PhD, EPFL
-:::
-::: {.alumni-item}
-[Danya Li](https://orbit.dtu.dk/en/persons/danya-li/), MSc, EPFL → PhD, DTU
-:::
+::: {.alumni-list tabindex="0" role="region" aria-labelledby="former-mentees-heading"}
+- [Xilun Zhang](https://xilunzhangrobo.github.io/), MSc, CMU → PhD, Stanford
+- [Jubayer Hamid](https://jubayer-ibn-hamid.github.io/), BSc, Stanford → PhD, Stanford
+- [Frano Rajič](https://m43.github.io/), MSc, EPFL → PhD, ETH
+- [Qi Yan](https://qiyan98.github.io/), MSc, EPFL → PhD, UBC
+- [Riccardo Cadei](https://www.riccardocadei.com/), MSc, EPFL → PhD, ISTA
+- [Sherwin Bahmani](https://sherwinbahmani.github.io/), MSc, TUD → PhD, U Toronto
+- [Rhea Malhotra](https://rhea-mal.github.io/rheamalhotra/), BSc, Stanford (Best Thesis)
+- [Hao Zhao](https://marcelluszhao.github.io/), MSc, EPFL → PhD, EPFL
+- [Danya Li](https://orbit.dtu.dk/en/persons/danya-li/), MSc, EPFL → PhD, DTU
 :::
 :::
 
@@ -268,6 +224,7 @@ Alumni
 :::
 :::
 
+<script src="scripts/publications.js" defer></script>
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>
   lucide.createIcons();
