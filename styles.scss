@@ -1056,6 +1056,10 @@ p {
   color: rgba(18, 63, 117, 0.58);
 }
 
+.lab-list {
+  max-height: 8rem;
+}
+
 .current-list,
 .alumni-list {
   /* Let the lab member list set equal card heights as the other lists grow. */
@@ -1063,6 +1067,11 @@ p {
   flex: 1;
   height: 0;
   min-height: 0;
+}
+
+.lab-list,
+.current-list,
+.alumni-list {
   overflow-y: auto;
   overscroll-behavior: contain;
   padding-left: 0.05rem;
@@ -1074,6 +1083,7 @@ p {
 }
 
 .publication-list:focus-visible,
+.lab-list:focus-visible,
 .current-list:focus-visible,
 .alumni-list:focus-visible {
   outline: 2px solid var(--lema-blue);
@@ -1090,6 +1100,7 @@ p {
 }
 
 .publication-list,
+.lab-list,
 .alumni-list {
   overflow-y: scroll;
   scrollbar-color: #6f859e #edf1f5;
@@ -1098,6 +1109,7 @@ p {
 /* Explicit scrollbar dimensions keep the track visible in Chromium and Safari. */
 @supports selector(::-webkit-scrollbar) {
   .publication-list,
+  .lab-list,
   .alumni-list {
     scrollbar-width: auto;
     scrollbar-color: auto;
@@ -1105,17 +1117,20 @@ p {
 }
 
 .publication-list::-webkit-scrollbar,
+.lab-list::-webkit-scrollbar,
 .alumni-list::-webkit-scrollbar {
   width: 9px;
 }
 
 .publication-list::-webkit-scrollbar-track,
+.lab-list::-webkit-scrollbar-track,
 .alumni-list::-webkit-scrollbar-track {
   background: #edf1f5;
   border-radius: 999px;
 }
 
 .publication-list::-webkit-scrollbar-thumb,
+.lab-list::-webkit-scrollbar-thumb,
 .alumni-list::-webkit-scrollbar-thumb {
   background: #6f859e;
   border: 1px solid #edf1f5;
@@ -1124,6 +1139,7 @@ p {
 }
 
 .publication-list::-webkit-scrollbar-thumb:hover,
+.lab-list::-webkit-scrollbar-thumb:hover,
 .alumni-list::-webkit-scrollbar-thumb:hover {
   background: #476787;
 }

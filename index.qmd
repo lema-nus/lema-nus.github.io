@@ -176,14 +176,15 @@ Yuejiang Liu, Jubayer Ibn Hamid, Annie Xie, Yoonho Lee, Max Du, Chelsea Finn
 
 ::: {.members-grid}
 ::: {.member-card .lab-card}
-<h3 class="member-role">Lab Members</h3>
+<h3 id="lab-members-heading" class="member-role">Lab Members</h3>
 
-::: {.lab-list}
+::: {.lab-list tabindex="0" role="region" aria-labelledby="lab-members-heading"}
 - [Yuejiang Liu](https://yuejiangliu.github.io/), Assistant Professor
-- [Xiaoye Wang](https://adamwang0224.github.io/), PhD, 2027 Jan -
-- [Michal Tešnar](https://www.linkedin.com/in/michal-tesnar/), RA, 2027 Jan -
-- [Clément Callaert](https://clementcallaert.com/), RA, 2027 Jan -
-- [Zhizheng Zhao](https://zhizhengzhao.github.io/), RA, 2027 Jan -
+- [Xiaoye Wang](https://adamwang0224.github.io/), January 2027 –
+- [Clément Callaert](https://clementcallaert.com/), January 2027 –
+- [Michal Tešnar](https://www.linkedin.com/in/michal-tesnar/), January 2027 –
+- [Sooyoung Ryu](https://sooyoung-ryu.github.io/), January 2027 –
+- [Zhizheng Zhao](https://zhizhengzhao.github.io/), January 2027 –
 :::
 :::
 
