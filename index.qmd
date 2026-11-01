@@ -87,7 +87,18 @@ How can agents verify and learn from their own predictions to improve continuall
 Below is a representative selection of recent publications. For the full publication list, please refer to the [Google Scholar](https://scholar.google.com/citations?hl=en&user=Xi-B5WIAAAAJ) profile.
 :::
 
-::: {.publication-list data-visible-count="5" tabindex="0" role="region" aria-label="Selected publications"}
+::: {.publication-list data-visible-count="6" tabindex="0" role="region" aria-label="Selected publications"}
+::: {.publication-card}
+### MEMI: Reverse-Engineering What Robots Should Remember
+
+Sooyoung Ryu, Yinpei Dai, Yilun Du, Chelsea Finn, **Yuejiang Liu**
+
+<div class="publication-meta">
+<div class="publication-venue"><em>Preprint, 2026. <span class="pub-note">Late-Breaking Results</span> in Agentic Robotics, CoRL.</em></div>
+<div class="publication-links"><span class="pub-link" role="link" aria-disabled="true" title="Paper link coming soon">Paper</span><a class="pub-link" href="https://memi-robot.github.io/">Project</a><a class="pub-link" href="https://github.com/memi-robot/memi">Code</a></div>
+</div>
+:::
+
 ::: {.publication-card}
 ### LLM-as-a-Verifier: A General-Purpose Verification Framework
 
