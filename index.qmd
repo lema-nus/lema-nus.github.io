@@ -91,7 +91,7 @@ Below is a representative selection of recent publications. For the full publica
 ::: {.publication-card}
 ### MEMI: Reverse-Engineering What Robots Should Remember
 
-Sooyoung Ryu, Yinpei Dai, Yilun Du, Chelsea Finn, **Yuejiang Liu**
+Sooyoung Ryu, Yinpei Dai, Yilun Du, Chelsea Finn, Yuejiang Liu
 
 <div class="publication-meta">
 <div class="publication-venue"><em>Preprint, 2026. <span class="pub-note">Late-Breaking Results</span> in Agentic Robotics, CoRL.</em></div>
